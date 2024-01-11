@@ -1,60 +1,15 @@
 {
   "features": [
     {
-      "name": "404",
-      "templateType": "JS",
-      "staticPage": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "city",
-      "streamId": "city-stream",
-      "templateType": "JS",
-      "entityPageSet": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "location",
+      "name": "location-url",
       "streamId": "location-stream",
       "templateType": "JS",
       "entityPageSet": {
         "plugin": {}
       },
       "pageUrlField": "c_url_url"
-    },
-    {
-      "name": "robots",
-      "templateType": "JS",
-      "staticPage": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "root",
-      "streamId": "root-stream",
-      "templateType": "JS",
-      "entityPageSet": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "state",
-      "streamId": "state-stream",
-      "templateType": "JS",
-      "entityPageSet": {
-        "plugin": {}
-      }
-    },
-    {
-      "name": "turtlehead-tacos",
-      "templateType": "JS",
-      "staticPage": {
-        "plugin": {}
-      }
     }
-  ],
+   ],
   "streams": [
     {
       "$id": "city-stream",
