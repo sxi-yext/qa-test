@@ -5,9 +5,9 @@
       "streamId": "location-stream",
       "templateType": "JS",
       "entityPageSet": {
-        "plugin": {}
-      },
-      "pageUrlField": "c_url_url"
+        "plugin": {},
+        "pageUrlField": "c_url_url"
+      }
     }
    ]
 }
