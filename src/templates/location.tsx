@@ -67,7 +67,10 @@ export const config: TemplateConfig = {
       locales: ["en"],
       primary: false,
     },
-    pageUrlField: "c_url_url",
+
+    entityPageSet: {
+      pageUrlField: "c_url_url",
+    },
     transform: {
       replaceOptionValuesWithDisplayNames: ["paymentOptions"],
     },
