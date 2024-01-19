@@ -1,5 +1,6 @@
 node_modules/
 sites-rendered-output/
+sites-config/features.json
 localData/
 dist/
 .yext
