@@ -43,7 +43,7 @@ export const config: TemplateConfig = {
     filter: {
       entityTypes: ["location"],
       entityIds: ["location6"],
-      savedFilterIds: ["location7-filter"],
+      savedFilterIds: ["1620747406"],
     },
     // Specifies the exact data that each generated document will contain.
     // This data is passed in directly as props to the default exported function.
