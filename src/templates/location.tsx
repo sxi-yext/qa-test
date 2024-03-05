@@ -35,7 +35,7 @@ import BreadCrumbs from "../components/Breadcrumbs";
  * Required when Knowledge Graph data is used for a template.
  */
 export const config: TemplateConfig = {
-  pageUrlField: "c_url_text",  
+  pageUrlField: "c_url_url_1",  
   stream: {
     $id: "location-stream",
     // Defines the scope of entities that qualify for this stream.
