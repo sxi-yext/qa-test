@@ -11,4 +11,4 @@ livePreviewConfiguration:
   serveCommand: npx serve -p 8080
   previewReadyRegex: test-regex
 serving:
-  reverseProxyPrefix: https://stores.vegalocator.com/home
+  reverseProxyPrefix: https://stores.testingtesting.com/home
