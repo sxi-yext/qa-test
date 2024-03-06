@@ -7,6 +7,8 @@ buildConfiguration:
       - package-lock.json
       - .npmrc
 livePreviewConfiguration:
-  setupCommand: ":"
+  setupCommand: npm install
+  serveCommand: npx serve -p 8080
+  previewReadyRegex: test-regex
 serving:
   reverseProxyPrefix: https://stores.vegalocator.com/home
